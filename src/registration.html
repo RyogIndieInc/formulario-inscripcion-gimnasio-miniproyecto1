@@ -27,14 +27,30 @@
             Dirección: <textarea name="30" cols="5"></textarea><br>
             <br>
         </form>
-    </div>
 
-    <div>
-
-    </div>
-
-    <div>
-
+        <fieldset>
+            <legend>Detalles de membresía</legend>
+            Fecha de ingreso: <input type="date"><br>
+            Tipo de membresía:
+            <input type="radio" name="afiliación" value="básico">Básico (Gym)
+            <input type="radio" name="afiliación" value="oro">Oro (Gym + cardio)
+            <input type="radio" name="afiliación" value="premium">Premium (Gym + cardio + crossfit)br
+            <br>
+            Duración:
+            <select>
+                <option value="1">1 Mes</option>
+                <option value="3">3 Meses</option>
+                <option value="6">6 Meses</option>
+                <option value="12">1 año</option>
+            </select><br>
+            <br>
+            ¿Está usted interesado en alguno de los siguientes?<br>
+            <input type="checkbox" name="Añadir" value="yoga">Yoga
+            <input type="checkbox" name="Añadir" value="punto libre">Sendero PT gratuito
+            <input type="checkbox" name="Añadir" value="zumba">Zumba
+            <input type="checkbox" name="Añadir" value="piloxing">Piloxing
+            <input type="checkbox" name="Añadir" value="diet">Plan de dieta
+        </fieldset>
     </div>
 </body>
 </html>
