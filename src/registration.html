@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muscle Gym<</title>
+    <title>Muscle Gym Formulario de inscripción</title>
 </head>
 <body>
     <div id="formulario-admision">
         <h2>Registro de miembros de Muscle Gym</h2>
-        <form action="">
+        <form>
             Nombres: <input type="text" placeholder="Primer nombre">
-            <input type="text" placeholder="Apellido">
-            <br>
+            <input type="text" placeholder="Apellido"><br>
             <br>
             Número de teléfono <input type="tel"><br>
             <br>
@@ -26,31 +25,35 @@
             <br>
             Dirección: <textarea name="30" cols="5"></textarea><br>
             <br>
-        </form>
 
-        <fieldset>
-            <legend>Detalles de membresía</legend>
-            Fecha de ingreso: <input type="date"><br>
-            Tipo de membresía:
-            <input type="radio" name="afiliación" value="básico">Básico (Gym)
-            <input type="radio" name="afiliación" value="oro">Oro (Gym + cardio)
-            <input type="radio" name="afiliación" value="premium">Premium (Gym + cardio + crossfit)br
+            <fieldset>
+                <legend>Detalles de membresía</legend>
+                Fecha de ingreso: <input type="date"><br>
+                Tipo de membresía:
+                <input type="radio" name="afiliación" value="básico">Básico (Gym)
+                <input type="radio" name="afiliación" value="oro">Oro (Gym + cardio)
+                <input type="radio" name="afiliación" value="premium">Premium (Gym + cardio + crossfit)br
+                <br>
+                Duración:
+                <select>
+                    <option value="1">1 Mes</option>
+                    <option value="3">3 Meses</option>
+                    <option value="6">6 Meses</option>
+                    <option value="12">1 año</option>
+                </select><br>
+                <br>
+                ¿Está usted interesado en alguno de los siguientes?<br>
+                <input type="checkbox" name="Añadir" value="yoga">Yoga
+                <input type="checkbox" name="Añadir" value="punto libre">Sendero PT gratuito
+                <input type="checkbox" name="Añadir" value="zumba">Zumba
+                <input type="checkbox" name="Añadir" value="piloxing">Piloxing
+                <input type="checkbox" name="Añadir" value="diet">Plan de dieta
+            </fieldset>
             <br>
-            Duración:
-            <select>
-                <option value="1">1 Mes</option>
-                <option value="3">3 Meses</option>
-                <option value="6">6 Meses</option>
-                <option value="12">1 año</option>
-            </select><br>
-            <br>
-            ¿Está usted interesado en alguno de los siguientes?<br>
-            <input type="checkbox" name="Añadir" value="yoga">Yoga
-            <input type="checkbox" name="Añadir" value="punto libre">Sendero PT gratuito
-            <input type="checkbox" name="Añadir" value="zumba">Zumba
-            <input type="checkbox" name="Añadir" value="piloxing">Piloxing
-            <input type="checkbox" name="Añadir" value="diet">Plan de dieta
-        </fieldset>
+            <button type="submit">Entregar</button>
+            <button type="reset">Resetear</button>
+        </form>
+        <a href="/src/index.html">Atrás</a>
     </div>
 </body>
 </html>
